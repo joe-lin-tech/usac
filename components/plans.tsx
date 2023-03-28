@@ -26,7 +26,7 @@ const plans = [
 
 const Plans = () => {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-48">
+    <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-24">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-base font-semibold leading-7 text-blue-500">Check out my plans.</h2>
         <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">

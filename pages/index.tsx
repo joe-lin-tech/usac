@@ -5,6 +5,9 @@ import styles from '@/styles/Home.module.css'
 import Hero from '@/components/hero'
 import Plans from '@/components/plans'
 import Experience from '@/components/experience'
+import App from '@/components/app'
+import Transparency from '@/components/transparency'
+import Represent from '@/components/represent'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +24,9 @@ export default function Home() {
         <div className="bg-gray-900">
           <Hero />
           <Plans />
+          <App />
+          <Transparency />
+          <Represent />
           <Experience />
         </div>
       </main>
