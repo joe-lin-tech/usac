@@ -1,26 +1,21 @@
-import { HeartIcon, HomeIcon, UserGroupIcon } from "@heroicons/react/24/solid";
+import { ClipboardDocumentListIcon, HeartIcon, HomeIcon, UserGroupIcon, UserIcon } from "@heroicons/react/24/solid";
 
 const features = [
   {
-    name: 'Dining and Housing Info.',
-    description: 'View dining menus and accurate dining hall capacities in real time. View laundry machine availabilities and bathroom cleaning times.',
-    icon: HomeIcon,
+    name: 'Student Input.',
+    description: 'Gathering student opinions on campus throughout the year through frequent in-person conversations. Establish convenient methods for student input through forms on the USAC website and UCLA app.',
+    icon: UserIcon,
   },
   {
-    name: 'Health and Fitness (Opt-In).',
-    description: 'Track daily caloric intake, calories burned, and create/maintain your own workout plan.',
-    icon: HeartIcon,
+    name: 'Event/Initiative Feedback.',
+    description: 'Solidify routine feedback forms for USAC events and initiatives allowing USAC offices to integrate feedback into future plans.',
+    icon: ClipboardDocumentListIcon,
   },
   {
-    name: 'Clubs and Activities.',
-    description: 'Get info about the latest club/campus-wide events and conveniently view club info.',
+    name: 'USAC Town Halls/Discussions.',
+    description: 'Holding periodic open and informal town halls/discussions that effectively bridges the gap between USAC offices and the student body.',
     icon: UserGroupIcon,
   },
-  {
-    name: 'Other Resources.',
-    description: 'Quick access to safe-ride options, study spaces (meeting room reservations), and more.',
-    icon: UserGroupIcon,
-  }
 ]
 
 const Represent = () => {
@@ -32,13 +27,14 @@ const Represent = () => {
             <div className="lg:max-w-lg">
               <p className="mt-2 text-5xl font-bold tracking-tight text-gray-900">Representing You</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                If elected, I plan to go above and beyond in curating opinions of each and every undergraduate bruin and work towards 
+                If elected, I plan to establish effective methods for student body input throughout the year, whether that be about specific events, initiatives, or even general feedback for USAC&apos;s progress.
+                My goal is to not only fulfill my campaign promises, but also adapt the General Representative&apos;s office priorities in accordance to student body opinions throughout the year.
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <dt className="inline font-semibold text-gray-900">
-                      <feature.icon className="absolute top-1 left-1 h-5 w-5 text-indigo-600" aria-hidden="true" />
+                      <feature.icon className="absolute top-1 left-1 h-5 w-5 text-blue-500" aria-hidden="true" />
                       {feature.name}
                     </dt>{' '}
                     <dd className="inline">{feature.description}</dd>

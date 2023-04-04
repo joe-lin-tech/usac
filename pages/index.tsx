@@ -6,8 +6,9 @@ import Hero from '@/components/hero'
 import Plans from '@/components/plans'
 import Experience from '@/components/experience'
 import App from '@/components/app'
-import Transparency from '@/components/transparency'
+import Resources from '@/components/resources'
 import Represent from '@/components/represent'
+import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,11 +26,12 @@ export default function Home() {
           <Hero />
           <Plans />
           <App />
-          <Transparency />
+          <Resources />
           <Represent />
           <Experience />
         </div>
       </main>
+      <Footer />
     </>
   )
 }

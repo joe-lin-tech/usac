@@ -1,11 +1,4 @@
-const stats = [
-  { label: 'Founded', value: '2021' },
-  { label: 'Employees', value: '37' },
-  { label: 'Countries', value: '12' },
-  { label: 'Raised', value: '$25M' },
-]
-
-const Transparency = () => {
+const Resources = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -71,26 +64,23 @@ const Transparency = () => {
           <div>
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
               <h1 className="mt-2 text-5xl font-bold tracking-tight text-gray-900">
-                Strengthening USAC Transparency
+                Resource Quality and Accessibility
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  I&apos;m committed to establishing stronger relations between USAC and the student body by increasing transparency.
-                  I aim to reorganize and regularly update the USAC website allowing students to conveniently access detailed minutes, documents, and other resources.
+                  I&apos;m committed to improving the current resources offered at UCLA, primarily with regards to academics and mental health.
+                  I aim to work closely with the Academic Affairs and Student Wellness commission to gauge student input on a variety of resources and establish effective measures to better the quality of these resources.
                 </p>
                 <p className="mt-8">
-                  By having more up-to-date info, USAC can be kept accountable with their progress and students can provide input on USAC&apos;s plans.
+                  I aim to further the accessibility of academic resources like course materials (lecture content) through increased digital access and
+                  look into AI-enhanced tools to efficiently transcribe lectures and discussions for CAE students.
+                </p>
+                <p className="mt-8">
+                  I promise to work my hardest in making sure that each and every bruin knows where/how to access all UCLA resources and to be able to do so conveniently.
+                  It is my commitment to push for the availability of more resources available for borrowing (e.g. cameras).
                 </p>
               </div>
             </div>
-            <dl className="mt-10 grid grid-cols-2 gap-8 border-t border-gray-900/10 pt-10 sm:grid-cols-4">
-              {stats.map((stat, statIdx) => (
-                <div key={statIdx}>
-                  <dt className="text-sm font-semibold leading-6 text-gray-600">{stat.label}</dt>
-                  <dd className="mt-2 text-3xl font-bold leading-10 tracking-tight text-gray-900">{stat.value}</dd>
-                </div>
-              ))}
-            </dl>
           </div>
         </div>
       </div>
@@ -98,4 +88,4 @@ const Transparency = () => {
   )
 }
 
-export default Transparency
+export default Resources
