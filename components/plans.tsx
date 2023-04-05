@@ -11,7 +11,7 @@ const plans = [
   {
     name: 'Resource Quality and Accessibility',
     description:
-      'Reforming academic, mental health, resources to ensure quality. Making resources more easily accessible and accomodating for every student.',
+      'Reforming academic, mental health, and other resources to ensure quality. Making resources more easily accessible and accommodating for every student.',
     href: '#',
     icon: CurrencyDollarIcon,
   },
