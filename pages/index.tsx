@@ -9,6 +9,8 @@ import App from '@/components/app'
 import Resources from '@/components/resources'
 import Represent from '@/components/represent'
 import Footer from '@/components/footer'
+import Housing from '@/components/housing'
+import Awareness from '@/components/awareness'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,9 +27,37 @@ export default function Home() {
         <div className="bg-gray-900">
           <Hero />
           <Plans />
-          <App />
+          <div className="relative isolate overflow-hidden bg-gray-900">
+            <App />
+            <Housing />
+            <svg
+              className="pointer-events-none absolute top-1/2 left-12 -z-10 h-[42.375rem] -translate-y-1/2 transform-gpu blur-3xl lg:top-auto lg:bottom-[-12rem] lg:translate-y-0 lg:transform-gpu"
+              viewBox="0 0 1155 678"
+              fill="none"
+            >
+              <path
+                fill="url(#c0458c57-1330-459f-9d5c-f0d75c210466)"
+                fillOpacity=".25"
+                d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
+              />
+              <defs>
+                <linearGradient
+                  id="c0458c57-1330-459f-9d5c-f0d75c210466"
+                  x1="1155.49"
+                  x2="-78.208"
+                  y1=".177"
+                  y2="474.645"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stopColor="#9089FC" />
+                  <stop offset={1} stopColor="#FF80B5" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
           <Resources />
           <Represent />
+          <Awareness />
           <Experience />
         </div>
       </main>

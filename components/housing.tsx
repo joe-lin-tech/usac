@@ -1,26 +1,22 @@
 const features = [
   {
-    name: 'Campus Navigation.',
-    description: 'Ever been lost in Boelter Hall? With this new feature, you\'ll be able to find your way through every UCLA building with ease.',
+    name: 'Housing Map.',
+    description: 'View available off-campus housing options around UCLA. See available pricing, utilities, and contact information.',
   },
   {
-    name: 'Laundry Status.',
-    description: 'See laundry machine availabilites in real time no matter where you live on campus.',
-  },
-  {
-    name: 'Reorganization.',
-    description: 'Moving features, links, and resources to locations that are more easily accessible. Refining interfaces to external UCLA pages.',
+    name: 'Student Connections.',
+    description: 'Find potential off-campus housing roommates.',
   },
 ]
 
-const App = () => {
+const Housing = () => {
   return (
     <div className="mx-auto px-16 lg:px-20">
-      <div className="relative isolate overflow-hidden pt-20 px-6 sm:rounded-3xl sm:pt-24 sm:px-10 lg:pt-24 xl:px-24">
+      <div className="relative isolate overflow-hidden py-20 px-6 sm:rounded-3xl sm:py-24 sm:px-10 lg:py-24 xl:px-24">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:items-center lg:gap-y-0">
           <div className="text-center">
             <h2 className="text-5xl font-bold tracking-tight text-white">
-              UCLA App Modernization
+              Off-Campus Housing Platform
             </h2>
             <dl className="max-w-xl space-y-4 text-base leading-7 text-gray-300 lg:max-w-none lg:pt-5 lg:mt-5">
               {features.map((f) => (
@@ -64,4 +60,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default Housing;

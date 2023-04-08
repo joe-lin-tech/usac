@@ -43,13 +43,17 @@ const experiences = [
 const skills = [
   {
     name: 'Effective Listener',
-    description: 'Prioritizes listening to other opinions before pitching in personal opinion, proposing a solution, or making a decision.',
+    description: 'Prioritizes listening to other opinions before pitching in a personal opinion, proposing a solution, or making a decision.',
   },
-  { name: 'Servant Leadership', description: 'Always focuses on the needs and desires of others.' },
+  { name: 'Servant Leadership', description: 'Focused on success and progress together as a team. Actively working on tasks with each member of office rather than pure delegation.' },
   {
-    name: 'Strong Communication',
-    description: 'In sit qui aliquid deleniti et. Ad nobis sunt omnis. Quo sapiente dicta laboriosam.',
+    name: 'Strong Collaboration',
+    description: 'Capable of being a team leader and ensuring all decisions made are done so with input from each team member.',
   },
+  {
+    name: '',
+    description: ''
+  }
 ]
 
 const Experience = () => {
