@@ -24,10 +24,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="bg-gray-900">
+        {/* <div className="bg-gray-900"> */}
+        <div className="bg-[#FFBD59]">
+        {/* <div className='bg-[#FFF700]'> */}
           <Hero />
           <Plans />
-          <div className="relative isolate overflow-hidden bg-gray-900">
+          <div className="relative isolate">
             <App />
             <Housing />
             <svg

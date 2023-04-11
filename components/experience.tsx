@@ -29,13 +29,13 @@ const experiences = [
   {
     name: "FUHSD Intradistrict Council",
     description:
-      'Collaborated with IDC Representatives and ASB Presidents across the district to form policies/initiatives and plan district-wide events.',
+      'Collaborated with IDC Representatives and ASB Presidents across the district to form district-wide policies/initiatives and plan district-wide events.',
     icon: UserGroupIcon
   },
   {
     name: "Cupertino Toyokawa Sister Cities Volunteer",
     description:
-      'Collaborated with committee members to plan for organization events, especially during the pandemic (e.g. handled logistics and production of virtual Cherry Blossom Festival).',
+      'Collaborated with committee members to plan for organization events (e.g. handled logistics and production of virtual Cherry Blossom Festival).',
     icon: BuildingLibraryIcon
   },
 ]
@@ -50,21 +50,17 @@ const skills = [
     name: 'Strong Collaboration',
     description: 'Capable of being a team leader and ensuring all decisions made are done so with input from each team member.',
   },
-  {
-    name: '',
-    description: ''
-  }
 ]
 
 const Experience = () => {
   return (
-    <div className="mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-48">
+    <div id="experience" className="mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-48">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-base font-semibold leading-7 text-blue-500">Experienced and effective leader.</h2>
-        <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+        <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
           My Experience
         </p>
-        <p className="mt-6 text-lg leading-8 text-gray-300">
+        <p className="mt-6 text-lg leading-8 text-black">
           Having served in various leadership positions, I&apos;ve accrued leadership skills that will allow me to efficiently run and manage the Office of the General Representative.
         </p>
       </div>
@@ -72,25 +68,25 @@ const Experience = () => {
         <dl className="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
           {experiences.map((e) => (
             <div key={e.name} className="relative pl-16">
-              <dt className="text-base font-semibold leading-7 text-white">
+              <dt className="text-base font-semibold leading-7 text-black">
                 <div className="absolute top-0 left-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
                   <e.icon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
                 {e.name}
               </dt>
-              <dd className="mt-2 text-base leading-7 text-gray-300">{e.description}</dd>
+              <dd className="mt-2 text-base leading-7 text-black">{e.description}</dd>
             </div>
           ))}
         </dl>
       </div>
       <dl className="col-span-2 grid grid-cols-3 gap-x-8 gap-y-10 text-base leading-7 lg:gap-y-16 mt-40">
         {skills.map((s) => (
-          <div key={s.name} className="relative pl-9">
+          <div key={s.name} className="relative pl-9 text-black">
             <dt className="font-semibold">
               <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-blue-500" aria-hidden="true" />
               {s.name}
             </dt>
-            <dd className="mt-2 text-gray-300">{s.description}</dd>
+            <dd className="mt-2 text-black">{s.description}</dd>
           </div>
         ))}
       </dl>

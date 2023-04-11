@@ -4,44 +4,44 @@ const plans = [
   {
     name: 'UCLA App Modernization',
     description:
-      'Streamlining organization of app features and interfaces to external pages. Adding campus building maps for convenient student navigation.',
-    href: '#',
+      'Integrating campus building maps for convenient student navigation. Streamlining organization of app features and interfaces on external pages.',
+    href: '#app',
     icon: CodeBracketIcon,
   },
   {
     name: 'Off-Campus Housing Platform',
     description:
       'A platform to find suitable off-campus housing options and connect you with current/previous student residents and respective landlords.',
-    href: '#',
+    href: '#housing',
     icon: HomeIcon
   },
   {
     name: 'Resource Quality and Accessibility',
     description:
-      'Reforming academic, mental health, and other resources. Making resources more easily accessible and accommodating for every student.',
-    href: '#',
+      'Enhancing academic, mental health, and other resources. Making resources more easily accessible and accommodating for every student.',
+    href: '#resources',
     icon: CurrencyDollarIcon,
   },
   undefined,
   {
     name: 'Represent Your Interests',
     description:
-      'Advocating your ideas and actively adapting policy proposals throughout the year. Establishing effective methods to bring your input into reality.',
-    href: '#',
+      'Advocating for your ideas and actively adapting policy proposals throughout the year. Establishing effective methods to bring your input into reality.',
+    href: '#represent',
     icon: LightBulbIcon,
   },
   {
     name: 'USAC Awareness',
     description:
       'Publicizing USAC\'s work and spending details in a more digestable manner, allowing the student body to be fully aware of USAC\'s progress.',
-    href: '#',
+    href: '#awareness',
     icon: UserIcon
   }
 ]
 
 const Plans = () => {
   return (
-    <div className="w-full px-36 pt-32 pb-24 bg-white">
+    <div id="plans" className="w-full px-36 pt-32 pb-24 bg-white">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-base font-semibold leading-7 text-blue-500">Check out my plans.</h2>
         <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">

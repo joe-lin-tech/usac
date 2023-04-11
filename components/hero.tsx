@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-gray-900">
+    <div className="relative isolate overflow-hidden bg-[#FFBD59]">
       <div className="absolute w-1/2 h-full right-0">
         <Image 
           src="/photo.png"
@@ -28,7 +28,7 @@ const Hero = () => {
             <path d="M.5 200V.5H200" fill="none" />
           </pattern>
         </defs>
-        <svg x="50%" y={-1} className="overflow-visible fill-gray-800/20">
+        <svg x="50%" y={-1} className="overflow-visible fill-[#FFBD59]/20">
           <path
             d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
             strokeWidth={0}
@@ -64,25 +64,24 @@ const Hero = () => {
         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl">
           <img
             className="h-11"
-            // src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/UCLA_Bruins_primary_logo.svg/400px-UCLA_Bruins_primary_logo.svg.png"
             src="/ucla.png"
-            alt="Your Company"
+            alt="UCLA Logo"
           />
           <div className="mt-24 sm:mt-32 lg:mt-16">
             <a href="#" className="inline-flex space-x-6">
-              <span className="rounded-full bg-blue-500/10 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
+              <span className="rounded-full bg-blue-500/5 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
                 Vote Now!
               </span>
-              <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-300">
+              <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-black">
                 <span>Contact Me</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
               </span>
             </a>
           </div>
-          <h1 className="mt-10 text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          <h1 className="mt-10 text-4xl font-bold tracking-tight text-black sm:text-6xl">
             Joe Lin for<br></br>UCLA General Representative
           </h1>
-          <p className="mt-6 text-lg leading-8 text-gray-300">
+          <p className="mt-6 text-lg leading-8 text-black">
             Running to serve and represent each and every Bruin! Vote Joe Lin for a kind, dedicated, and experienced leader.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
@@ -92,7 +91,7 @@ const Hero = () => {
             >
               My Platform
             </a>
-            <a href="#" className="text-base font-semibold leading-7 text-white">
+            <a href="#" className="text-base font-semibold leading-7 text-black">
               Learn more <span aria-hidden="true">→</span>
             </a>
           </div>

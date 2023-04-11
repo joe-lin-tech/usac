@@ -20,7 +20,7 @@ const features = [
 
 const Represent = () => {
   return (
-    <div className="overflow-hidden bg-white py-12">
+    <div id="represent" className="overflow-hidden bg-white py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 gap-x-8 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pt-4">
@@ -46,7 +46,7 @@ const Represent = () => {
           <div className="flex items-start justify-start lg:order-end">
             <img
               src="https://wp.dailybruin.com/images/2021/04/ALK-2.jpg"
-              alt="Product screenshot"
+              alt="Image of UCLA Royce Hall."
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               width={2432}
               height={1442}

@@ -1,23 +1,31 @@
 const links = [
   {
-    name: "Platform",
-    href: "#"
+    name: "Plans",
+    href: "#plans"
   },
   {
     name: "UCLA App",
-    href: "#"
+    href: "#app"
   },
   {
-    name: "Transparency",
-    href: "#"
+    name: "Off-Campus Housing",
+    href: "#housing"
+  },
+  {
+    name: "Resource Quality and Accessibility",
+    href: "#resources"
   },
   {
     name: "Representation",
-    href: "#"
+    href: "#represent"
+  },
+  {
+    name: "USAC Awareness",
+    href: "#awareness"
   },
   {
     name: "Experience",
-    href: "#"
+    href: "#experience"
   }
 ]
 
@@ -52,7 +60,7 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900">
+    <footer className="bg-[#FFBD59] text-black">
       <div className="mx-auto max-w-7xl overflow-hidden py-10 px-6 sm:py-12 lg:px-8">
         <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
           {links.map((l) => (
@@ -73,6 +81,9 @@ const Footer = () => {
         </div>
         <p className="mt-5 text-center text-xs leading-5">
           &copy; 2023 Joe Lin for USAC. Made with Next.js and Tailwind.
+        </p>
+        <p className="mt-2 text-center text-xs leading-5">
+          Report violations of the Elections Code at uclaelectionsboard.org.
         </p>
       </div>
     </footer>
