@@ -41,7 +41,7 @@ const plans = [
 
 const Plans = () => {
   return (
-    <div id="plans" className="w-full px-36 pt-32 pb-24 bg-white">
+    <div id="plans" className="w-full bg-white pt-16 px-6 pb-16 sm:px-36 sm:pt-32 sm:pb-24">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-base font-semibold leading-7 text-blue-500">Check out my plans.</h2>
         <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">
@@ -53,10 +53,10 @@ const Plans = () => {
         </p>
       </div>
       <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-        <dl className="grid max-w-xl grid-cols-3 gap-x-16 gap-y-16 lg:max-w-none lg:grid-cols-6">
+        <dl className="grid max-w-xl grid-cols-1 gap-x-16 gap-y-16 lg:max-w-none sm:grid-cols-6">
           {plans.map((p, i) => p ? (
-            <div key={i} className="flex flex-col col-span-2">
-              <dt className="text-base font-semibold leading-7 text-black">
+            <div key={i} className="flex flex-col col-span-2 text-center sm:text-left">
+              <dt className="text-base font-semibold leading-7 text-black flex flex-col items-center sm:items-start">
                 <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500">
                   <p.icon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>

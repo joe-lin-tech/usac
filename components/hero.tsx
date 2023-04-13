@@ -61,13 +61,13 @@ const Hero = () => {
         </defs>
       </svg>
       <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-40 lg:px-8">
-        <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl">
+        <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl flex flex-col items-center sm:items-start">
           <img
             className="h-11"
             src="/ucla.png"
             alt="UCLA School Logo"
           />
-          <div className="mt-24 sm:mt-32 lg:mt-16">
+          <div className="mt-24 lg:mt-16">
             <div className="inline-flex space-x-6">
               <span className="rounded-full bg-blue-500/5 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
                 Voting starts 5/5!
@@ -78,13 +78,13 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <h1 className="mt-10 text-4xl font-bold tracking-tight text-black sm:text-6xl">
+          <h1 className="mt-10 text-4xl font-bold tracking-tight text-black sm:text-6xl text-center sm:text-left">
             Joe Lin for<br></br>UCLA General Representative
           </h1>
-          <p className="mt-6 text-lg leading-8 text-black">
+          <p className="mt-6 text-lg leading-8 text-black text-center sm:text-left">
             Running to serve and represent each and every Bruin! Vote Joe Lin for a kind, dedicated, and experienced leader.
           </p>
-          <div className="mt-10 flex items-center gap-x-6">
+          <div className="mt-10 flex items-center gap-x-6 justify-center sm:justify-start">
             <a
               href="#plans"
               className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"

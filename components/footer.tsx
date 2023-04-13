@@ -62,7 +62,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#FFBD59] text-black">
       <div className="mx-auto max-w-7xl overflow-hidden py-10 px-6 sm:py-12 lg:px-8">
-        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 text-center" aria-label="Footer">
           {links.map((l) => (
             <div key={l.name} className="pb-6">
               <a href={l.href} className="text-sm leading-6">

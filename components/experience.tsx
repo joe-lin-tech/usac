@@ -79,7 +79,7 @@ const Experience = () => {
           ))}
         </dl>
       </div>
-      <dl className="col-span-2 grid grid-cols-3 gap-x-8 gap-y-10 text-base leading-7 lg:gap-y-16 mt-40">
+      <dl className="col-span-2 grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-10 text-base leading-7 lg:gap-y-16 mt-40">
         {skills.map((s) => (
           <div key={s.name} className="relative pl-9 text-black">
             <dt className="font-semibold">

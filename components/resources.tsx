@@ -3,7 +3,7 @@ const Resources = () => {
     <div id="resources" className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-y-16 gap-x-8 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-4 h-full flex flex-col justify-around">
+          <div className="lg:pr-4 h-full flex flex-col justify-around max-sm:hidden">
             <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pt-64 shadow-2xl lg:max-w-lg xl:px-10">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
