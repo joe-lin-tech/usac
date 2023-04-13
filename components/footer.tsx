@@ -60,7 +60,8 @@ const socials = [
 
 const Footer = () => {
   return (
-    <footer className="bg-[#FFBD59] text-black">
+    // <footer className="bg-[#FFBD59] text-black">
+    <footer className="bg-[#ffd859] text-black">
       <div className="mx-auto max-w-7xl overflow-hidden py-10 px-6 sm:py-12 lg:px-8">
         <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12 text-center" aria-label="Footer">
           {links.map((l) => (

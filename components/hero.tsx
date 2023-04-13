@@ -3,13 +3,23 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <div className="relative isolate overflow-hidden bg-[#FFBD59]">
+    // <div className="relative isolate overflow-hidden bg-[#FFBD59]">
+    <div className="relative isolate overflow-hidden bg-[#ffd859]"> 
       <div className="absolute w-1/2 h-full right-0">
         <Image 
           src="/photo.png"
           alt="A cropped photo of Joe's upper body."
           fill
-          className="object-contain pt-16"
+          className="object-contain pt-16 max-sm:hidden"
+        />
+      </div>
+      <div className="absolute w-full h-full">
+        <Image
+          src="/mobile_photo.png"
+          alt="A cropped photo of Joe's upper body facing towards the camera with his hands pointing to the text above."
+          width={1000}
+          height={500}
+          className="object-contain sm:hidden absolute bottom-0 z-50"
         />
       </div>
       <svg
@@ -61,13 +71,13 @@ const Hero = () => {
         </defs>
       </svg>
       <div className="mx-auto max-w-7xl px-6 pt-10 pb-24 sm:pb-32 lg:flex lg:py-40 lg:px-8">
-        <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-xl flex flex-col items-center sm:items-start">
+        <div className="mx-auto max-w-2xl flex-shrink-0 mb-20 sm:mb-0 lg:mx-0 lg:max-w-xl flex flex-col items-center sm:items-start">
           <img
             className="h-11"
             src="/ucla.png"
             alt="UCLA School Logo"
           />
-          <div className="mt-24 lg:mt-16">
+          <div className="mt-6 sm:mt-16">
             <div className="inline-flex space-x-6">
               <span className="rounded-full bg-blue-500/5 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
                 Voting starts 5/5!
@@ -87,7 +97,7 @@ const Hero = () => {
           <div className="mt-10 flex items-center gap-x-6 justify-center sm:justify-start">
             <a
               href="#plans"
-              className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
+              className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400 z-50"
             >
               My Platform
             </a>

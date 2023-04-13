@@ -54,7 +54,7 @@ const skills = [
 
 const Experience = () => {
   return (
-    <div id="experience" className="mx-auto max-w-7xl px-6 lg:px-8 pt-32 pb-48">
+    <div id="experience" className="mx-auto max-w-7xl px-6 lg:px-8 pb-16 pt-32 sm:pb-48">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-base font-semibold leading-7 text-blue-500">Experienced and effective leader.</h2>
         <p className="mt-2 text-4xl font-bold tracking-tight text-black sm:text-5xl">

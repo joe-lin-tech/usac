@@ -25,8 +25,8 @@ export default function Home() {
       </Head>
       <main>
         {/* <div className="bg-gray-900"> */}
-        <div className="bg-[#FFBD59]">
-        {/* <div className='bg-[#FFF700]'> */}
+        {/* <div className="bg-[#FFBD59]"> */}
+        <div className='bg-[#ffd859]'>
           <Hero />
           <Plans />
           <div className="relative isolate">
