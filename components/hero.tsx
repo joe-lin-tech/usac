@@ -72,7 +72,7 @@ const Hero = () => {
               <span className="rounded-full bg-blue-500/5 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
                 Voting starts 5/5!
               </span>
-              <a href="https://forms.gle/p2Fj8cWxQ2kgc9Fb7" target="_blank" rel="noreferrer" className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-black">
+              <a href="https://forms.gle/p2Fj8cWxQ2kgc9Fb7" target="_blank" rel="noreferrer" className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-black z-50">
                 <span>Contact Me</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
               </a>
@@ -91,7 +91,7 @@ const Hero = () => {
             >
               My Platform
             </a>
-            <a href="https://forms.gle/Expj3GaRBez9aSWr9" target="_blank" rel="noreferrer" className="text-base font-semibold leading-7 text-black">
+            <a href="https://forms.gle/Expj3GaRBez9aSWr9" target="_blank" rel="noreferrer" className="text-base font-semibold leading-7 text-black z-50">
               Get Updates <span aria-hidden="true">→</span>
             </a>
           </div>
