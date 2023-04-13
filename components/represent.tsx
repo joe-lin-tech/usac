@@ -46,7 +46,7 @@ const Represent = () => {
           <div className="flex items-start justify-start lg:order-end">
             <img
               src="https://wp.dailybruin.com/images/2021/04/ALK-2.jpg"
-              alt="Image of UCLA Royce Hall."
+              alt="Image of UCLA Royce Hall from a side angle. The front walkway sits on the bottom of the image, with the main entrance in the left half of the picture."
               className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
               width={2432}
               height={1442}

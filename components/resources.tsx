@@ -8,14 +8,14 @@ const Resources = () => {
               <img
                 className="absolute inset-0 h-full w-full object-cover"
                 src="/caps.png"
-                alt="Image of CAPS center at UCLA."
+                alt="Image of CAPS center at UCLA with a student in the middle of walking into the building."
               />
             </div>
             <div className="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pt-64 shadow-2xl lg:max-w-lg xl:px-10">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
                 src="/asucla.png"
-                alt="Image of ASUCLA restaurants."
+                alt="Image of ASUCLA restaurants with veggie grill on the left, blaze pizza in the middle, and panda express on the right."
               />
             </div>
           </div>

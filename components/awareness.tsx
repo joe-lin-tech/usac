@@ -8,7 +8,7 @@ const Awareness = () => {
                 <img
                   className="absolute inset-0 h-full w-full object-cover"
                   src="/awareness.png"
-                  alt="Image of UCLA in main quad."
+                  alt="Image of UCLA in main quad with the letters U, C, L, and A in front of the UCLA store at Ackerman."
                 />
               </div>
             </div>

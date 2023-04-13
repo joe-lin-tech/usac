@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="absolute w-1/2 h-full right-0">
         <Image 
           src="/photo.png"
-          alt="photo"
+          alt="A cropped photo of Joe's upper body."
           fill
           className="object-contain pt-16"
         />
@@ -65,18 +65,18 @@ const Hero = () => {
           <img
             className="h-11"
             src="/ucla.png"
-            alt="UCLA Logo"
+            alt="UCLA School Logo"
           />
           <div className="mt-24 sm:mt-32 lg:mt-16">
-            <a href="#" className="inline-flex space-x-6">
+            <div className="inline-flex space-x-6">
               <span className="rounded-full bg-blue-500/5 px-3 py-1 text-sm font-semibold leading-6 text-blue-400 ring-1 ring-inset ring-blue-500/20">
-                Vote Now!
+                Voting starts 5/5!
               </span>
-              <span className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-black">
+              <a href="https://forms.gle/p2Fj8cWxQ2kgc9Fb7" target="_blank" rel="noreferrer" className="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-black">
                 <span>Contact Me</span>
                 <ChevronRightIcon className="h-5 w-5 text-gray-500" aria-hidden="true" />
-              </span>
-            </a>
+              </a>
+            </div>
           </div>
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-black sm:text-6xl">
             Joe Lin for<br></br>UCLA General Representative
@@ -86,13 +86,13 @@ const Hero = () => {
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="#"
+              href="#plans"
               className="rounded-md bg-blue-500 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-400"
             >
               My Platform
             </a>
-            <a href="#" className="text-base font-semibold leading-7 text-black">
-              Learn more <span aria-hidden="true">→</span>
+            <a href="https://forms.gle/Expj3GaRBez9aSWr9" target="_blank" rel="noreferrer" className="text-base font-semibold leading-7 text-black">
+              Get Updates <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
